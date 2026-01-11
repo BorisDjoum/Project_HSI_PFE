@@ -1,0 +1,9 @@
+*.npy
+*.npz
+*.bin
+*.hdr
+*.spc
+*.raw
+*.GIS
+*.lan
+

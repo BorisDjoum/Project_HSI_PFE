@@ -1,0 +1,28 @@
+======================================================================
+RÉSULTATS DU TEST
+======================================================================
+
+Modèle: best_cnn1d_csv.pth
+Dataset de test: dataset_reflec_test
+Nombre de fichiers testés: 16
+Nombre total de pixels: 1600000
+
+Test Accuracy: 0.2475 (24.75%)
+
+Matrice de confusion:
+[[137006  69375 145426  48193]
+ [224623  34025  92653  48699]
+ [186136  43883 122732  47249]
+ [219480  11701  66638 102181]]
+
+Rapport de classification:
+              precision    recall  f1-score   support
+
+    Classe_0       0.18      0.34      0.23    400000
+    Classe_1       0.21      0.09      0.12    400000
+    Classe_2       0.29      0.31      0.30    400000
+    Classe_3       0.41      0.26      0.32    400000
+
+    accuracy                           0.25   1600000
+   macro avg       0.27      0.25      0.24   1600000
+weighted avg       0.27      0.25      0.24   1600000
